@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5933a1f8552bc2750a0000ed/solutions/javascript
+function nthEven(n){
+  const next = n * 2;
+  const rez = next - 2;
+    return rez;
+}
