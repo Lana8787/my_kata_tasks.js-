@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
+function abbrevName(name){
+  let str = name.match(/\b(\w)/g); 
+  let acronym = str.join('.');
+      return acronym.toUpperCase();
+}
