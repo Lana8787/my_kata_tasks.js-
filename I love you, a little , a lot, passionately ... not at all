@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/57f24e6a18e9fad8eb000296/train/javascript
+function howMuchILoveYou(nbPetals) {
+  const petals = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"];
+  
+  const index = nbPetals % petals.length;
+  
+  if (index === 0){
+    return petals[petals.length -1];
+  }
+   return petals[index - 1];
+}
