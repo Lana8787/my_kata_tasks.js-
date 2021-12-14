@@ -1,0 +1,4 @@
+https://www.codewars.com/kata/577bd026df78c19bca0002c0/train/javascript
+function correct(string) {
+  return string.replace(/[1]/gi, 'I').replace(/[0]/gi, 'O').replace(/[5]/gi, 'S');
+}
